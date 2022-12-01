@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Assets/CSS/style.css" rel="stylesheet">
+    <title>Java Script Quiz</title>
+</head>
+
+<body>
+    <header>
+        <h4 id="high-score-tab">
+            <a id="link" href="highscore.html">High Scores</a>
+        </h4>
+        <h4 id="timer">Time: <span id="count-down">55</span></h4>
+    </header>
+
+    <main id="middle-page">
+        <div id="start-page">
+            <h2 id="title">Coding Quiz Challenge</h2>
+            <div id="main-content">
+                <p id="content">Try to answer the following code related questions within the time limit. <br> Keep in
+                    mind that incorrect will penalize your score/time <br> by ten seconds!</p>
+            </div>
+
+            <button class="button" id="start-button" type="submit">Start Quiz</button>
+        </div>
+
+        <div hidden id="question-page">
+            <h2 id="question-title"></h2>
+            <div id="question-content">
+                <p id="questions">
+                    <div>
+                        <button id="button01" class="question-choices"></button><br>
+                        <button id="button02" class="question-choices"></button><br>
+                        <button id="button03" class="question-choices"></button><br>
+                        <button id="button04" class="question-choices"></button><br>
+                    </div>
+                    <p hidden id="right-wrong" class="right-wrong"></p>
+                </p>
+            </div>
+        </div>
+
+        <div hidden id="end-page">
+            <h4 id="end-title"></h4>
+            <p id="tell-score"></p>
+            <form>
+                <p id="input-initials"> 
+                    Enter initials:
+                    <span><input type="text" name='score' id="high-score-input" placeholder="please enter here"/></span>
+                    <span><button id="high-score-btn" type="submit">submit</button></span>
+                </p>
+            </form>
+        </div>
+
+    </main>
+    <script src="Assets/JS/script.js"></script>
+</body>
+
+</html>

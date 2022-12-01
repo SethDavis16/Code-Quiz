@@ -1,0 +1,169 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/*  styling for high score in top left */
+#high-score-tab{
+    color: rgb(100, 12, 216)k;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* styling for timer in the top left */ 
+#timer{
+    font-size: 22px;
+}
+
+#link{
+    text-decoration: none ;
+}
+
+/* styling for middle section */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main h2{
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+}
+main p{
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+}
+main div{
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+}
+
+/* initial home page button */
+.button {
+    padding: 10px 15px;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: rgb(100, 12, 216);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+.button:hover {
+    background-color: rgb(54, 19, 100)
+}
+  
+.button:active {
+    background-color: rgb(54, 19, 100);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+/* for the question list buttons */
+.question-choices{
+    background-color: rgb(100, 12, 216);
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    width: 20%;
+    margin: 10px;
+    opacity: .7;
+}
+.question-choices:hover{
+opacity: 1;
+}
+
+/* styling for text telling the user if they were right or wrong */
+.right-wrong{
+    font-size: 25px;
+}
+
+/* input box for initals*/
+#high-score{
+    padding: 0px 10px;
+    font-size: 15px;
+}
+
+
+#high-score-btn{
+    color: white;
+    background-color: rgb(100, 12, 216);
+    font: 15px;
+    border-radius: 5px;
+}
+#high-score-btn:hover{
+    background-color: rgb(54, 19, 100);
+}
+
+/* styling for button to submit initals */
+#game-over{
+    font-size: 25px;
+}
+
+
+
+
+/* highscore java page */
+#high-score-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px auto;
+    padding: 0px;
+}
+
+#header{
+    font-size: 45px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#displayHS{
+    text-align: center;
+    opacity: .4;
+    width: 100%;
+    font-size: 20px;
+}
+
+
+
+#work-please{
+    width: 100%;
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#HS-goback{
+    text-align: center;
+    margin-right: 10px;
+    color: white;
+    background-color: rgb(100, 12, 216);
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#HS-clear{
+text-align: center;
+background-color:rgb(100, 12, 216);
+color: white;
+border-radius: 5px;
+font-size: 20px;
+cursor: pointer;
+}
